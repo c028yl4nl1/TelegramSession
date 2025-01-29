@@ -1,0 +1,12 @@
+[package]
+name = "APiTelegram"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+grammers-client = "0.7.0"
+grammers-session = "*"
+tokio = { version = "1", features = ["full"] }
+futures = "*"
+
+futures-util = "*"
